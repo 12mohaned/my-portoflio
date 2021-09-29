@@ -1,5 +1,5 @@
 <template>
-  <div class = "Hello">
+  <div class = "Home">
   <img alt="aboutme img" src="../assets/aboutme.png">
   <h3>Who am I ?</h3>
   <p>I am a muslim junior software engineer who is curious and interested in computer science.</p> 
@@ -39,9 +39,6 @@
 import { Carousel, Slide } from 'vue-carousel';
 export default {
   name: 'Home',
-  props: {
-    msg: String
-  },
   components: {
     Carousel,
     Slide
